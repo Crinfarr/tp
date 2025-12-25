@@ -4,3 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+async-sqlite = { version = "0.5.3", default-features = false }
+clap = { version = "4.5.53", features = ["derive"] }
+ratatui = { version = "0.29.0", default-features = false }
+tokio = { version = "1.48.0", features = ["rt-multi-thread", "rt", "macros", "net"] }
